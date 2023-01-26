@@ -1,0 +1,15 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          default-label: master
+          uri: https://github.com/ecalderc/config-server-directory
+          #search-paths: config-data-prod
+          #search-paths: config-data-docker
+          search-paths: config-data-dev
