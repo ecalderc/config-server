@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          default-label: master
+          default-label: main
           uri: https://github.com/ecalderc/config-server-directory
           #search-paths: config-data-prod
           #search-paths: config-data-docker
