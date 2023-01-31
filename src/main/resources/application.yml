@@ -12,5 +12,5 @@ spring:
           default-label: main
           uri: https://github.com/ecalderc/config-server-directory
           #search-paths: config-data-prod
-          #search-paths: config-data-docker
-          search-paths: config-data-dev
+          search-paths: config-data-docker
+          #search-paths: config-data-dev
