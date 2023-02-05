@@ -14,3 +14,8 @@ spring:
           default-label: main
           uri: https://github.com/ecalderc/config-server-directory
           search-paths: config-data-{profile}
+
+management:
+  endpoint:
+    health:
+      show-details: always
