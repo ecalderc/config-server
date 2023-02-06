@@ -6,5 +6,5 @@ RUN mvn clean package -DskipTests
 FROM openjdk:17
 VOLUME /tmp
 EXPOSE 8088
-COPY --from=build /target/gateway-0.0.1-SNAPSHOT.jar ./gateway.jar
-ENTRYPOINT ["java","-jar","/gateway.jar"]
+COPY --from=build /target/config-server-0.0.1-SNAPSHOT.jar ./config-server.jar
+ENTRYPOINT ["java","-jar","/config-server.jar"]
